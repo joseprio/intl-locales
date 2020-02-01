@@ -1,0 +1,19 @@
+{
+    "name": "intl-locales",
+    "version": "1.0.0",
+    "description": "Patched locales from intl.js, with trimmed calendars",
+    "devDependencies": {
+        "@babel/cli": "7.1.5",
+        "@babel/core": "7.1.6",
+        "@babel/node": "7.0.0",
+        "@babel/preset-env": "7.1.6"
+    },
+    "dependencies": {
+        "cldr-core": "29.0.0",
+        "cldr-dates-full": "29.0.0",
+        "cldr-numbers-full": "29.0.0"
+    },
+    "scripts": {
+        "build": "babel-node scripts/build-data"
+    }
+}
